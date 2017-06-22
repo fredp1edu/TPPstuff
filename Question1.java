@@ -1,7 +1,7 @@
 /*  Frederick Pierce */
 
 
-public class SumOfTwo {
+public class Question1 {
     
     public static boolean sumOfTwo(int[] a, int[] b, int v) {
         

@@ -1,6 +1,6 @@
 /* Frederick Pierce */
 
-public class StringReformat {
+public class Question2 {
     
     public static String stringReformatting(String oldString, int k) {
         String newString = "";

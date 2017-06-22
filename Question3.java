@@ -1,7 +1,7 @@
 /*  Frederick Pierce */
 
 
-public class GetClosingParen {
+public class Question3 {
     
     public static int getClosingParen(String sentence, int openingParenIndex) {
         int xCount = 0;
