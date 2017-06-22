@@ -1,9 +1,10 @@
 /*  Frederick Pierce */
 
-public class Question3 {
+
+public class GetClosingParen {
     
     public static int getClosingParen(String sentence, int openingParenIndex) {
-        int xCount = 0; int idx = 0;
+        int xCount = 0;
         
         for (int j = openingParenIndex+1; j < sentence.length(); j++) {
             if (sentence.charAt(j) == '(') {
@@ -16,7 +17,7 @@ public class Question3 {
                     return j;
             }
         }
-        return idx;
+        return 0;
     }
     public static void main(String[] args) {
         System.out.println(getClosingParen("Sometimes (when I nest them (my parentheticals) too " +

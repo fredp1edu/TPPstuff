@@ -1,6 +1,4 @@
-/*
-   Frederick Pierce
- */
+/* Frederick Pierce */
 
 public class StringReformat {
     

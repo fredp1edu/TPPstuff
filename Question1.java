@@ -1,5 +1,7 @@
-/* Frederick Pierce */
-public class Question1 {
+/*  Frederick Pierce */
+
+
+public class SumOfTwo {
     
     public static boolean sumOfTwo(int[] a, int[] b, int v) {
         
@@ -16,10 +18,7 @@ public class Question1 {
         int[] intArrayB = {6, 22, 40, 9, 3, 8};
         int target = 10;
         
-        if (sumOfTwo(intArrayA, intArrayB, target))
-            System.out.println("true");
-        else 
-            System.out.println("false");    
+    System.out.println(String.valueOf(sumOfTwo(intArrayA, intArrayB, target)));  
     }
     /* changed the 3 to 4 in intArrayB to get a false reading */
 }
